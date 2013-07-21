@@ -1,14 +1,14 @@
 #! /bin/bash
 
 #Uncomment script below upon initial setup
-#cd /home/pi
+#cd ~
 #sudo apt-get install -y ffmpeg
 #sudo apt-get install -y lame
 #sudo apt-get install -y youtube-dl
 #sudo youtube-dl --update
 
 subreddit="listentothis"
-directory=/home/pi/Music
+directory="~/Music"
 cd $directory
 sudo rm $subreddit
 
